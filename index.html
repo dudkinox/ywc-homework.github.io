@@ -1,7 +1,48 @@
-<!DOCTYPE html>
 <html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+  <head>
+    <title>PHP Test</title>
+  </head>
+  <body>
+    <script src = "/myJSON.js"></script>
+    <style>
+      #show li img{
+        width:250px;
+        height:250px;
+      }
+    </style>
+    <ul id = "show">
+
+    </ul>
+    <script>
+      function createNode(element){
+        return document.createElement(element);
+      }
+      function append(parent, el){
+        return parent.appendChild(el);
+      }
+      const ul = document.getElementById("show");
+      const url = "myJSON.js";
+
+      fetch(url)
+      .then((res) => res.json())
+      .then(function(data) {
+        console.log(data);
+        let authors = data.merchants;
+        return authors.map(function(author) {
+          let li = createNode("li");
+          let img = createNode("img");
+          let span = createNode("span");
+
+          img.src = author.coverImageId;
+          span.innerHTML = `${author.shopNameTH} ${author.categoryName}`;
+
+          append(li, img);
+          append(li, span);
+          append(ul, li);
+        })
+      }).catch(function(error) {
+        console.log(error);
+      });
+    </script>
+  </body>
 </html>
