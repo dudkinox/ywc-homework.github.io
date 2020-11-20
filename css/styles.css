@@ -1,0 +1,133 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+.snip1512 {
+  font-family: 'Lato', Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  /* min-width: 230px; */
+  /* max-width: 315px; */
+  max-height: 500px;
+  color: #000000;
+  text-align: left;
+  font-size: 16px;
+  background-color: #1a1a1a;
+  line-height: 1.2em;
+}
+
+.snip1512 *,
+.snip1512 *:before,
+.snip1512 *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s linear;
+  transition: all 0.25s linear;
+}
+
+.snip1512 img {
+  max-width: 100%;
+  vertical-align: top;
+}
+
+.snip1512 figcaption {
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+  padding: 10px 20px;
+  background-color: #ffffff;
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+.snip1512 h3,
+.snip1512 p {
+  -webkit-transform: translateY(-10px);
+  transform: translateY(-10px);
+  opacity: 0;
+  margin: 0;
+  padding: 0;
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+.snip1512 h3 {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.snip1512 p {
+  font-weight: 400;
+  font-size: 0.9em;
+}
+
+.snip1512 i {
+  position: absolute;
+  color: #fff;
+  font-size: 34.11764706px;
+  line-height: 58px;
+  width: 58px;
+  bottom: 0;
+  right: 0;
+  background-color: #e67e22;
+  text-align: center;
+  -webkit-transform: translateX(58px);
+  transform: translateX(58px);
+}
+
+.snip1512 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.snip1512:hover img,
+.snip1512.hover img {
+  zoom: 1;
+  filter: alpha(opacity=30);
+  -webkit-opacity: 0.3;
+  opacity: 0.3;
+  -webkit-transform: translateY(-40px);
+  transform: translateY(-40px);
+}
+
+.snip1512:hover figcaption,
+.snip1512.hover figcaption,
+.snip1512:hover h3,
+.snip1512.hover h3,
+.snip1512:hover p,
+.snip1512.hover p {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.snip1512:hover figcaption,
+.snip1512.hover figcaption {
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+.snip1512:hover h3,
+.snip1512.hover h3 {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+.snip1512:hover p,
+.snip1512.hover p {
+  -webkit-transition-delay: 0.45s;
+  transition-delay: 0.45s;
+  opacity: 0.5;
+}
+
+.snip1512:hover i,
+.snip1512.hover i {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
