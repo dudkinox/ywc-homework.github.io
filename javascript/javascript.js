@@ -30,8 +30,10 @@
                       else{
                         states = "ร้านปิด";
                       }
+                      let count = 0;
                       
-                      store.innerHTML += '<div class = "col-4 col-12-medium"><div class="col-4 col-12-medium"><section class="box feature"><a href="#" class="image featured"><figure class="snip1512"><img height = "400px" src = "'+authors[loop].coverImageId+'" alt="" /><figcaption><h3>'+states+'</h3><p>ความคุ้มค่าระดับ : '+authors[loop].priceLevel+'</p></h3></figcaption><i class="ion-plus"></i></figure></a><div class="inner"><header><h2>'+authors[loop].shopNameTH+'</h2><p>'+authors[loop].highlightText+'</p></header><p>'+authors[loop].subcategoryName + '<br>ประเภท : ' + authors[loop].categoryName + '<br>ตำแหน่ง : ' + authors[loop].addressProvinceName + ' ' + authors[loop].addressDistrictName+'<br><b>ราคา :</b> '+authors[loop].price+' บาท</p></div></section></div>';
+                        store.innerHTML += '<div class = "col-4 col-12-medium"><div class="col-4 col-12-medium"><section class="box feature"><a href="#" class="image featured"><figure class="snip1512"><img height = "400px" src = "'+authors[loop].coverImageId+'" alt="" /><figcaption><h3>'+states+'</h3><p>ความคุ้มค่าระดับ : '+authors[loop].priceLevel+'</p></h3></figcaption><i class="ion-plus"></i></figure></a><div class="inner"><header><h2>'+authors[loop].shopNameTH+'</h2><p>'+authors[loop].highlightText+'</p></header><p>'+authors[loop].subcategoryName + '<br>ประเภท : ' + authors[loop].categoryName + '<br>ตำแหน่ง : ' + authors[loop].addressProvinceName + ' ' + authors[loop].addressDistrictName+'<br><b>ราคา :</b> '+authors[loop].price+' บาท</p></div></section></div>';
+                      
       }
       function show(key,authors){
         var states = "";var num = 0;

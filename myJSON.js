@@ -189,7 +189,7 @@
       "recommendedItems": ["กาแฟสด", "ขนมปังปิ้ง", "ข้าวไข่เจียวแหนม"],
       "addressProvinceName": "กรุงเทพมหานคร",
       "addressDistrictName": "เขตพระนคร",
-      "price": 400
+      "price": 600
     },
     {
       "shopNameTH": "Chayanon Cafe",
@@ -203,7 +203,7 @@
       "recommendedItems": ["กาแฟสด", "ขนมปังปิ้ง"],
       "addressProvinceName": "กรุงเทพมหานคร",
       "addressDistrictName": "เขตลาดกระบัง",
-      "price": 300
+      "price": 350
     },
     {
       "shopNameTH": "วายดับบลิวซีหมูกระทะ",
@@ -217,7 +217,7 @@
       "recommendedItems": ["หมูกระทะ", "สุกี้"],
       "addressProvinceName": "กรุงเทพมหานคร",
       "addressDistrictName": "เขตธนบุรี",
-      "price": 300
+      "price": 320
     }
   ]
 }
